@@ -60,9 +60,7 @@ Note: For testing purposes, test accounts and data are currently initialized wit
 
 1. Register and/or login to the application. If you’re creating a new account, first select a membership plan and you’re directed to the ‘Step 1 - User Information’ tab. Complete the forms on tabs 1-4 by providing the necessary information, and click ‘Submit.’
 
-2. After logging into your account, you see the Landing Page. Note, you can also reach this page by selecting ‘Home’ in the top nav bar.
-
-The Landing Page contains four links for "Community", "Speakers", "Work Spaces", and "Businesses". Clicking `Learn More` associated with each title will take you to that page. You can also view and edit your profile information by selecting ‘Profile’ in the top nav bar.
+2. After logging into your account, you see the Landing Page. Note, you can also reach this page by selecting ‘Home’ in the top nav bar. The Landing Page contains four links for "Community", "Speakers", "Work Spaces", and "Businesses". Clicking `Learn More` associated with each title will take you to that page. You can also view and edit your profile information by selecting ‘Profile’ in the top nav bar.
 
 3. To search through the community of members, select the ‘Community’ button from the landing page or the nav bar. After navigating to the Search Page, you can find members by inputting a job title, community role, organization name, display name, or mentor/mentee. You have the option to search by skills by clicking `Add` in the skills bar. This will prompt a modal with all the skills in categories. Clicking on a skill will insert that skill into the search filter. When the search results appear, clicking the `Learn More` button a modal will pop up with the users profile information.
 
