@@ -16,8 +16,8 @@ To see the fully functional site, please visit: [ConnectHER](https://ancient-woo
 
 ## Screen Shots
 
-![Screenshot](public/Screen2.png)
-![Screenshot](public/Screen1.png)
+![image](https://user-images.githubusercontent.com/67838283/105495266-96794a80-5c81-11eb-8d8a-5b5776aa6713.png)
+![image](https://user-images.githubusercontent.com/67838283/105497100-0983c080-5c84-11eb-9a90-7b8509ee8afe.png)
 
 ### Prerequisites
 
