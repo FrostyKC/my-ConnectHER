@@ -97,4 +97,4 @@ The following snippet illustrates how a user will utilize and navigate through t
 
 Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality.
 A special thank you to Lauren Conaway and the InnovateHER KC team for giving us this opportunity.
-Thank you to the ConnectHER team for all the hard-work and support: [Alex Calvillo](www.github.com/alexjcalvillo), [Kevin Anderson](https://github.com/kevinanderson7), [Ashleigh McGinnis](https://github.com/ashmcg21), and [Shelby Cook](https://github.com/shelbyecook)
+Thank you to the ConnectHER team for all the hard-work and support: [Lara Komosa](https://github.com/larakomosa) and [Chase Simmons](https://github.com/Chase-Simmons)
