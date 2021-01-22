@@ -14,7 +14,7 @@ router.get(
   '/about/:id',
   (req: Request, res: Response, next: express.NextFunction): void => {
     const userId = req.params.id;
-    const queryText = `SELECT email, first_name, last_name, display_name, address, bio, city, community_role, facebook, headshot, instagram, job_title, linkedin, organization_name, state, twitter, zip_code FROM about JOIN "users" ON "about".user_id= "users".id WHERE "users".id=$1;`;
+    const queryText = `SELECT email, first_name, last_name, display_name, address, bio, city, community_role, mentor, mentee, access_level, facebook, headshot, instagram, job_title, linkedin, organization_name, state, twitter, zip_code FROM about JOIN "users" ON "about".user_id= "users".id WHERE "users".id=$1;`;
     pool
       .query(queryText, [userId])
       .then((response) => {

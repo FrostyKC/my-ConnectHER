@@ -26,6 +26,25 @@ function* updateProfile(action) {
       `/api/profile/user/${action.payload.id}`,
       action.payload.profile
     );
+    yield put({
+      type: 'FETCH_USER',
+      payload: action.payload.id,
+    });
+  } catch (error) {
+    console.log('Profile failed to update. Please try again.', error);
+  }
+}
+
+function* updateProfileAdmin(action) {
+  try {
+    yield axios.put(
+      `/api/profile/about/${action.payload.id}`,
+      action.payload.profile
+    );
+    yield axios.put(
+      `/api/profile/user/${action.payload.id}`,
+      action.payload.profile
+    );
     yield axios.put(`/api/user/level/${action.payload.id}`, action.payload);
     yield put({
       type: 'FETCH_USER',
@@ -110,6 +129,7 @@ function* updateImageUrl(action) {
 function* profileSaga() {
   yield takeLatest('GET_PROFILE', getProfile);
   yield takeLatest('UPDATE_PROFILE', updateProfile);
+  yield takeLatest('UPDATE_PROFILE_ADMIN', updateProfileAdmin);
   yield takeLatest('FETCH_ALL_PROFILES', getAllProfiles);
   yield takeLatest('UPDATE_USER_HEADSHOT', updateImageUrl);
 }

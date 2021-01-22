@@ -122,8 +122,10 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           [propertyKey]: event.target.value,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
+    console.log(this.state);
   };
 
   handleMentorRadioTrue = (event) => {
@@ -133,6 +135,7 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           mentor: true,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
@@ -143,6 +146,7 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           mentor: false,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
@@ -153,6 +157,7 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           mentee: true,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
@@ -163,6 +168,7 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           mentee: false,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
@@ -173,6 +179,7 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           access_level: 1,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
@@ -217,13 +224,14 @@ class AdminMemberItem extends Component {
           ...this.state.editMember.about,
           access_level: 2,
         },
+        member_level: this.state.editMember.member_level,
       },
     });
   };
 
   handleModalSave = (event) => {
     this.props.dispatch({
-      type: 'UPDATE_PROFILE',
+      type: 'UPDATE_PROFILE_ADMIN',
       payload: {
         profile: this.state.editMember.about,
         member_level: this.state.editMember.member_level,
@@ -776,7 +784,7 @@ class AdminMemberItem extends Component {
                   <CustomInput
                     className="form-check-input"
                     type="radio"
-                    id="memberLevelRadio"
+                    id="memberLevelOneRadio"
                     name="memberRadio"
                     label="1"
                     onChange={this.handleMemberLevel1}
@@ -785,7 +793,8 @@ class AdminMemberItem extends Component {
                   <CustomInput
                     className="form-check-input"
                     type="radio"
-                    id="memberRadio"
+                    id="memberLevelTwoRadio"
+                    name="memberRadio"
                     label="2"
                     onChange={this.handleMemberLevel2}
                     checked={this.state.editMember.member_level === 2}
@@ -793,7 +802,7 @@ class AdminMemberItem extends Component {
                   <CustomInput
                     className="form-check-input"
                     type="radio"
-                    id="memberLevel3Radio"
+                    id="memberLevelThreeRadio"
                     name="memberRadio"
                     label="3"
                     onChange={this.handleMemberLevel3}
