@@ -95,6 +95,6 @@ The following snippet illustrates how a user will utilize and navigate through t
 
 ## Acknowledgement
 
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality.
+Thanks to [Prime Digital Academy](https://primeacademy.io/) who equipped and helped us to make this application a reality.
 A special thank you to Lauren Conaway and the InnovateHER KC team for giving us this opportunity.
 Thank you to the ConnectHER team for all the hard-work and support: [Lara Komosa](https://github.com/larakomosa) and [Chase Simmons](https://github.com/Chase-Simmons)
