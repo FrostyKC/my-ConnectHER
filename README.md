@@ -72,9 +72,9 @@ Note: For testing purposes, test accounts and data are currently initialized wit
 
 User Story:
 
-The following snippet illustrates how a user will utilize and navigate through the ConnectHER application. (0:00 - 5:42).
+The following snippet illustrates how a user will utilize and navigate through the ConnectHER application. (0:00 - 7:24).
 
-[Presentation](https://vimeo.com/460774354)
+[Presentation](https://vimeo.com/503341537)
 
 ## Built With
 
